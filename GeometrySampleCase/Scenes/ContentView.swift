@@ -45,7 +45,11 @@ struct ContentView: View {
                 }
             }
             .background(Color.red)
-            sampleModalView()
+            
+            GeometryReader { _ in
+                sampleModalView()
+            }
+            .edgesIgnoringSafeArea(.bottom)
         }
         
     }
