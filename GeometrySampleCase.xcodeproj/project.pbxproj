@@ -14,6 +14,7 @@
 		FEC8FB902BFE1C57003114D6 /* GeometrySampleCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8FB8F2BFE1C57003114D6 /* GeometrySampleCaseTests.swift */; };
 		FEC8FB9A2BFE1C57003114D6 /* GeometrySampleCaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8FB992BFE1C57003114D6 /* GeometrySampleCaseUITests.swift */; };
 		FEC8FB9C2BFE1C57003114D6 /* GeometrySampleCaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8FB9B2BFE1C57003114D6 /* GeometrySampleCaseUITestsLaunchTests.swift */; };
+		FEC8FBA92BFE1FBA003114D6 /* SheetCustomModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8FBA82BFE1FBA003114D6 /* SheetCustomModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FEC8FB952BFE1C57003114D6 /* GeometrySampleCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometrySampleCaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC8FB992BFE1C57003114D6 /* GeometrySampleCaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometrySampleCaseUITests.swift; sourceTree = "<group>"; };
 		FEC8FB9B2BFE1C57003114D6 /* GeometrySampleCaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometrySampleCaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEC8FBA82BFE1FBA003114D6 /* SheetCustomModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCustomModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,8 @@
 		FEC8FB7D2BFE1C56003114D6 /* GeometrySampleCase */ = {
 			isa = PBXGroup;
 			children = (
+				FEC8FBAA2BFE2116003114D6 /* Scenes */,
 				FEC8FB7E2BFE1C56003114D6 /* GeometrySampleCaseApp.swift */,
-				FEC8FB802BFE1C56003114D6 /* ContentView.swift */,
 				FEC8FB822BFE1C56003114D6 /* Assets.xcassets */,
 				FEC8FB842BFE1C56003114D6 /* Preview Content */,
 			);
@@ -125,6 +127,15 @@
 				FEC8FB9B2BFE1C57003114D6 /* GeometrySampleCaseUITestsLaunchTests.swift */,
 			);
 			path = GeometrySampleCaseUITests;
+			sourceTree = "<group>";
+		};
+		FEC8FBAA2BFE2116003114D6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8FB802BFE1C56003114D6 /* ContentView.swift */,
+				FEC8FBA82BFE1FBA003114D6 /* SheetCustomModalView.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				FEC8FB812BFE1C56003114D6 /* ContentView.swift in Sources */,
 				FEC8FB7F2BFE1C56003114D6 /* GeometrySampleCaseApp.swift in Sources */,
+				FEC8FBA92BFE1FBA003114D6 /* SheetCustomModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
